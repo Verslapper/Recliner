@@ -14,6 +14,15 @@ h1, h2, h3, nav a
 a
 {
 	text-shadow: none;
+	color: #000;
+}
+a:visited
+{
+	color: #000;
+}
+a:hover
+{
+	text-decoration: none;
 }
 nav a,
 .panel
@@ -30,7 +39,7 @@ nav a
 	padding: 10px;
 	text-decoration: none;
 }
-nav a:hover
+a:hover
 {
 	background-color: #ffdf6b;
 }
@@ -81,5 +90,9 @@ h1
 	.half
 	{
 		width: auto;
+	}
+	.brewmail
+	{
+		font-size: 20px;
 	}
 }
